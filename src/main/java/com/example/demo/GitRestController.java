@@ -17,7 +17,7 @@ import java.net.http.HttpResponse;
 @RequiredArgsConstructor
 public class GitRestController {
 
-    private static final String authorization = "Bearer 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";
+    private static final String authorization = "Bearer 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";
     private static final String baseUrl = "https://api.github.com/repos/";
 
     @GetMapping("/{owner}/{repository-name}")
